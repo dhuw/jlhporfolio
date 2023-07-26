@@ -16,12 +16,12 @@ body {
     padding: 10px;
   }
 
-  .navbar-logo {
+  .logo {
     margin-right: auto; /* Pushes the logo to the left */
     font-size: 24px;
     font-weight: bold;
-    height: 3%;
-    width: 3%;
+    height: 7%;
+    width: 7%;
   }
 
   .navbar ul {
