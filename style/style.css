@@ -1,3 +1,11 @@
+:root {
+  --logo-color: #FF0000;
+  --background: #292524;
+  --text-white: #FFFFFF;
+  --text-red:   #FF0000;
+
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,13 +13,14 @@
 }
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Ubuntu", Arial, sans-serif;
+    background-color: var(--background);
   }
 
   .navbar {
     display: flex;
     align-items: center;
-    background-color: #333;
+    background-color: var(--logo-color); /* make navbar red to follow reference imagery */
     color: #fff;
     padding: 10px;
   }
@@ -36,19 +45,22 @@ body {
   }
 
   .navbar li a {
-    color: white;
+    color: var(--text-white);
     text-decoration: none;
     padding: 8px 16px;
   }
 
-  .navbar li a:hover {
-    background-color: #111;
+  .navbar li a:hover { /* hover needs to be te same as background color */
+    background-color: var(--background);
+    height: 30px;
+
   }
 
   .about-container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
+    color: var(--text-white);
   }
 
   .about-image {
@@ -58,6 +70,7 @@ body {
 
   .about-text {
     margin-top: 20px;
+    color: var(--text-white);
   }
 
   .contact-container {
@@ -65,6 +78,7 @@ body {
     margin: 50px auto;
     padding: 20px;
     text-align: center;
+    color: var(--text-white);
   }
 
   .contact-heading {
