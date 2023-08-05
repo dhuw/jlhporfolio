@@ -1,6 +1,6 @@
 # JLH Video Portfolio Page
 
-Portfolio site for JLH Videography so they can have a simpe and proffesional way to show potential or returnong clients their skillset. 
+Portfolio site for JLH Videography so they can have a simple and profesional way to show potential or returnong clients their skillset. 
 
 
 
