@@ -23,6 +23,7 @@ body {
     background-color: var(--logo-color); /* make navbar red to follow reference imagery */
     color: #fff;
     padding: 10px;
+    /* position: fixed; */
   }
 
   .logo {
